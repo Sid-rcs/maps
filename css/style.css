@@ -3,13 +3,13 @@
 .navbar {
     background-color: #ffffff;
     border-radius: 0;
-    border-bottom: #000000 solid;
-    box-shadow: black;
+    border-bottom: #3A3A3A solid;
+    box-shadow: bottom black;
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
-    color: #000000;
+    color: #3A3A3A;
     font-size: px;
     font-weight: bold;
 }
@@ -25,15 +25,15 @@
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-    color: black;
+    color: #3A3A3A;
     font-size: 16px;
     padding: 10px;
 }
 
 /* Navbar collapsed styles */
 .navbar-toggler {
-    color:black;
-    border-color: black;
+    color:#3A3A3A;
+    border-color: #3A3A3A;
     background-color: white;
     border-radius: 4px;
     border: 1px solid;
@@ -83,16 +83,19 @@
     border-color: #cccccc;
     border-width: 1px;
     width: 100%;
+    box-shadow: 5px 5px 10px lightgray;
 }
 
 .card:hover {
-    border-color: #ebd122;
+    border-color:#1a53ff;
+    border-width: 2px;
 }
 
 /*** Basic Text Styles ***/
 
 #about-world {
-    max-height: 200px;
+    max-height: 500px;
+    max-width: 250px
 }
 
 .resume h3 {
@@ -114,15 +117,15 @@ a {
 }
 
 a:hover {
-    color: #ebd122;
+    color:  #1a53ff;
 }
 
 .container{
-    padding:25px 0;
+    padding:25px 25px;
 }
 
 body {
-
+    background-image: url("../assets/background.png");
     font-family: 'lorem epsum', serif;
     background-color: white;
     color: #242424;
