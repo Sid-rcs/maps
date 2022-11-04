@@ -91,6 +91,8 @@
     filter: drop-shadow(5px 5px 10px black);
 }
 
+
+
 /*** Basic Text Styles ***/
 
 #about-world {
@@ -117,7 +119,7 @@ a {
 }
 
 a:hover {
-    color:  #1a53ff;
+    color: #000066;
 }
 
 .container{
